@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("https://wallpapercave.com/wp/wp13938349.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  width: 100%; 
+  z-index: 100;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #a9def9;
+}
+
+/* App Container */
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  color: #12ACFA;
+  text-align: center;
+}
+
+/* Input Styling */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color:#12ACFA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a9def9;
+}
+
+/* Preformatted Text */
+pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.footer {
+   width: 100%;
+  padding: 20px;
+  background-color: #333;
+  color: #a9def9;
+  text-align: center;
+  margin-top: auto; 
+}

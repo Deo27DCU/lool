@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TAYLOR GALLERY WEBSITE</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SwiftWorld: CSS Carousel Slider</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  
+  <title>SwiftWorld Main Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  </head>
+  
+  
+  
+  <body>
+   <nav class="navbar">
+  <div class="logo">SwiftWorld</div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../lyricsfinder/lyricsfinder.html">Lyrics Finder</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="../contact/contact.html">Contact</a></li>
+  </ul>
+</nav>
+  
+  
+    <div>
+      <div class="carousel">
+        <ul class="slides">
+          <!-- Slide 1: The Tortured Poets Department -->
+          <input type="radio" name="radio-buttons" id="img-1" checked />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="https://i0.wp.com/brignews.com/wp-content/uploads/2024/04/taylor-swift-new-double-album-tortured-poets-department-hero-1600x900-1.webp?fit=1366%2C768&ssl=1">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-6" class="prev-slide">
+                <span>‹</span>
+              </label>
+              <label for="img-2" class="next-slide">
+                <span>›</span>
+              </label>
+            </div>
+          </li>
+
+          <!-- Slide 2: Midnights -->
+          <input type="radio" name="radio-buttons" id="img-2" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="https://assets.teenvogue.com/photos/6352906dd6b540dd757e618e/16:9/w_2560%2Cc_limit/Taylor%2520Swift%2520Midnights%2520Press%2520Shot%25204_Photographer%2520credit:%2520Beth%2520Garrabrant.jpg">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-1" class="prev-slide">
+                <span>‹</span>
+              </label>
+              <label for="img-3" class="next-slide">
+                <span>›</span>
+              </label>
+            </div>
+          </li>
+
+          <!-- Slide 3: 1989 (Taylor's Version) -->
+          <input type="radio" name="radio-buttons" id="img-3" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="https://i.pinimg.com/originals/39/75/0b/39750b209d434241c62cc3ede7d36e83.jpg">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-2" class="prev-slide">
+                <span>‹</span>
+              </label>
+              <label for="img-4" class="next-slide">
+                <span>›</span>
+              </label>
+            </div>
+          </li>
+
+          <!-- Slide 4: Speak Now (Taylor's Version) -->
+          <input type="radio" name="radio-buttons" id="img-4" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="https://www.rollingstone.com/wp-content/uploads/2023/07/Speak-Now-Taylors-Version-Album-Review.jpg?crop=0px%2C18px%2C1798px%2C1014px&resize=1600%2C900">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-3" class="prev-slide">
+                <span>‹</span>
+              </label>
+              <label for="img-5" class="next-slide">
+                <span>›</span>
+              </label>
+            </div>
+          </li>
+
+          <!-- Slide 5: Folklore -->
+          <input type="radio" name="radio-buttons" id="img-5" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="https://wallpapers.com/images/hd/taylor-swift-folklore-xwz7cwxdexd5vm79.jpg">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-4" class="prev-slide">
+                <span>‹</span>
+              </label>
+              <label for="img-6" class="next-slide">
+                <span>›</span>
+              </label>
+            </div>
+          </li>
+
+          <!-- Slide 6: Evermore  -->
+          <input type="radio" name="radio-buttons" id="img-6" />
+          <li class="slide-container">
+            <div class="slide-image">
+              <img src="https://64.media.tumblr.com/2acbdd19a2e12799d9a547a27b169c66/f0dfe89ff749c2df-f9/s1280x1920/27667beceee524649492a44078706e099b6c05b5.jpg">
+            </div>
+            <div class="carousel-controls">
+              <label for="img-5" class="prev-slide">
+                <span>‹</span>
+              </label>
+              <label for="img-1" class="next-slide">
+                <span>›</span>
+              </label>
+            </div>
+          </li>
+
+          <!-- Carousel Dots -->
+          <div class="carousel-dots">
+            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+            <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+            <label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+            <label for="img-6" class="carousel-dot" id="img-dot-6"></label>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+ <footer class="footer">
+      <p>© 2024 SwiftWorld. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
